@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cena 3 - Bolos Decorados Doce Lembrança</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Comfortaa:wght@700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+    .font-brand { font-family: 'Comfortaa', cursive; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-pink-100 to-rose-50 w-[480px] h-[854px] overflow-hidden flex flex-col justify-between p-3 select-none">
+  <!-- Topo -->
+  <header class="bg-gradient-to-r from-rose-600 via-pink-600 to-rose-700 text-white p-3 rounded-2xl flex items-center justify-between shadow-md">
+    <div class="flex items-center space-x-2.5">
+      <div class="w-10 h-10 rounded-xl bg-white text-rose-600 flex items-center justify-center text-xl shadow">🎂</div>
+      <div>
+        <h1 class="text-sm font-bold font-brand tracking-wide leading-tight">Festejando na Mesa</h1>
+        <p class="text-[10px] text-pink-100">Bolos Decorados "Doce Lembrança"</p>
+      </div>
+    </div>
+    <span class="bg-emerald-400 text-slate-950 font-black text-[11px] px-2.5 py-1 rounded-xl shadow">🎁 Topo Simples Incluso</span>
+  </header>
+
+  <!-- Imagem Principal Gigante do Panfleto -->
+  <div class="relative my-2 flex-1 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-900 flex items-center justify-center">
+    <img src="../public/assets/bolos_decorados_doce_lembranca.jpg" class="w-full h-full object-contain">
+
+    <!-- Selo Superior Flutuante -->
+    <div class="absolute top-3 left-3 bg-pink-600 text-white font-black text-xs px-3 py-1.5 rounded-full shadow-lg flex items-center space-x-1.5 border border-white/50">
+      <span>🎂</span>
+      <span>1 MASSA + 2 RECHEIOS CAPRICHADOS</span>
+    </div>
+
+    <!-- Tabela Visual de Tamanhos e Preços em Destaque Gigante -->
+    <div class="absolute bottom-3 inset-x-3 bg-gradient-to-r from-slate-950/95 via-rose-950/95 to-slate-950/95 p-3 rounded-2xl border-2 border-rose-300 shadow-2xl">
+      <div class="grid grid-cols-4 gap-1.5 text-center text-white">
+        <div class="bg-white/10 p-1.5 rounded-xl border border-white/20">
+          <span class="text-[10px] text-pink-200 block">15 cm (~20 fat)</span>
+          <span class="text-sm font-black text-amber-300">R$ 150</span>
+        </div>
+        <div class="bg-white/10 p-1.5 rounded-xl border border-white/20">
+          <span class="text-[10px] text-pink-200 block">20 cm (~30 fat)</span>
+          <span class="text-sm font-black text-amber-300">R$ 180</span>
+        </div>
+        <div class="bg-white/10 p-1.5 rounded-xl border border-white/20">
+          <span class="text-[10px] text-pink-200 block">25 cm (~40 fat)</span>
+          <span class="text-sm font-black text-amber-300">R$ 220</span>
+        </div>
+        <div class="bg-white/10 p-1.5 rounded-xl border border-white/20">
+          <span class="text-[10px] text-pink-200 block">30 cm (~50 fat)</span>
+          <span class="text-sm font-black text-amber-300">R$ 260</span>
+        </div>
+      </div>
+      <p class="text-[9px] text-pink-200 text-center mt-1.5 font-medium">Recheios: Ninho, Brigadeiro, Doce de Leite c/ Ameixa, Paçoca, Abacaxi c/ Coco</p>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <div class="bg-white rounded-2xl p-2.5 border border-rose-200 text-center shadow-sm">
+    <p class="text-xs font-bold text-slate-800">❤️ Mais que um bolo, uma doce lembrança no coração!</p>
+  </div>
+</body>
+</html>

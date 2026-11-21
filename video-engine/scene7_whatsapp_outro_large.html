@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cena 7 - Catálogo Digital na Bio & WhatsApp</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Comfortaa:wght@700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+    .font-brand { font-family: 'Comfortaa', cursive; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-rose-900 via-pink-700 to-rose-950 w-[480px] h-[854px] overflow-hidden flex flex-col justify-between items-center p-4 text-white text-center relative select-none">
+  
+  <!-- Efeitos de Luz no Fundo -->
+  <div class="absolute -top-10 -left-10 w-52 h-52 rounded-full bg-pink-400/25 blur-3xl"></div>
+  <div class="absolute -bottom-10 -right-10 w-52 h-52 rounded-full bg-rose-500/25 blur-3xl"></div>
+
+  <!-- Topo -->
+  <div class="relative z-10 pt-1">
+    <div class="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-md px-4 py-1 rounded-full border border-white/30 shadow-lg mb-1.5">
+      <span class="text-amber-300 text-sm">✨</span>
+      <span class="text-[11px] font-black tracking-wider uppercase text-pink-100">Catálogo Digital Oficial 24h</span>
+    </div>
+    
+    <div class="w-14 h-14 mx-auto rounded-2xl bg-white text-rose-600 font-black text-2xl flex items-center justify-center shadow-xl border-3 border-rose-300 mb-1.5">
+      🎂
+    </div>
+    <h1 class="text-xl font-black font-brand tracking-wide text-white drop-shadow-md">Festejando na Mesa</h1>
+    <p class="text-[11px] text-rose-200 font-semibold italic">"Doces momentos, lembranças que ficam!"</p>
+  </div>
+
+  <!-- Centro: Mockup do Smartphone mostrando o Catálogo Web Aberto -->
+  <div class="relative z-10 my-auto">
+    <!-- Moldura do Celular -->
+    <div class="w-72 h-[390px] rounded-[38px] bg-slate-900 p-2.5 shadow-[0_20px_50px_rgba(0,0,0,0.6)] border-4 border-slate-700 relative overflow-hidden">
+      <!-- Câmera Dynamic Island -->
+      <div class="w-20 h-3.5 bg-black rounded-full mx-auto mb-1.5"></div>
+      
+      <!-- Tela Interna do Catálogo Digital Web -->
+      <div class="w-full h-full rounded-[26px] overflow-hidden bg-rose-50/95 flex flex-col justify-between text-left p-2.5 text-slate-800 border border-rose-200">
+        
+        <!-- Barra de Navegador / Topo do App -->
+        <div class="bg-gradient-to-r from-rose-600 to-pink-600 -mx-2.5 -mt-2.5 p-2 text-white flex items-center justify-between shadow-sm">
+          <div class="flex items-center space-x-1.5">
+            <span class="text-xs">🎂</span>
+            <span class="text-[10px] font-bold font-brand">Festejando na Mesa</span>
+          </div>
+          <span class="text-[9px] bg-white text-rose-700 font-black px-2 py-0.5 rounded-full shadow">24h no Ar</span>
+        </div>
+
+        <!-- Banner com Foto de Bolo e Botões de Categorias -->
+        <div class="mt-1.5 space-y-1.5">
+          <div class="bg-white p-2 rounded-xl shadow-xs border border-rose-100 flex items-center space-x-2">
+            <div class="w-12 h-12 rounded-lg overflow-hidden bg-slate-900 shrink-0">
+              <img src="../public/assets/bolinho_festa_100.jpg" class="w-full h-full object-cover">
+            </div>
+            <div class="text-[10px] leading-tight">
+              <span class="font-extrabold text-slate-900 block">Bolinho de Festa 30 fat.</span>
+              <span class="text-rose-600 font-black text-xs block">R$ 100,00</span>
+              <span class="text-[8px] text-slate-500">Escolha massa e 2 recheios</span>
+            </div>
+          </div>
+
+          <div class="bg-white p-2 rounded-xl shadow-xs border border-rose-100 flex items-center space-x-2">
+            <div class="w-12 h-12 rounded-lg overflow-hidden bg-slate-900 shrink-0">
+              <img src="../public/assets/promocao_mini_festa_mesa.jpg" class="w-full h-full object-cover">
+            </div>
+            <div class="text-[10px] leading-tight">
+              <span class="font-extrabold text-slate-900 block">Mini Festa Completa</span>
+              <span class="text-rose-600 font-black text-xs block">A partir de R$ 150,00</span>
+              <span class="text-[8px] text-slate-500">Bolo + Painel + Docinhos</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Botão de Ação no Rodapé do Celular -->
+        <div class="bg-gradient-to-r from-emerald-600 to-teal-600 text-white text-[10px] font-black py-2 px-2.5 rounded-xl text-center shadow-md mt-auto flex items-center justify-center space-x-1 border border-emerald-400">
+          <span>🛍️</span>
+          <span>Monte seu Pedido no Catálogo!</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Badges Flutuantes em Alto Destaque -->
+    <div class="absolute -top-3 -right-6 bg-amber-400 text-rose-950 text-xs font-black px-3.5 py-1.5 rounded-2xl shadow-xl border-2 border-white transform rotate-6">
+      🔗 Link na Bio!
+    </div>
+    <div class="absolute -bottom-3 -left-6 bg-emerald-500 text-white text-xs font-black px-3.5 py-1.5 rounded-2xl shadow-xl border-2 border-white transform -rotate-6 flex items-center space-x-1">
+      <span>💠</span>
+      <span>Sinal 50% PIX</span>
+    </div>
+  </div>
+
+  <!-- Rodapé Comercial com Chamada Direta e Irresistível -->
+  <div class="relative z-10 w-full space-y-1.5 pb-1">
+    <!-- Caixa Dourada Indicando o Catálogo -->
+    <div class="bg-amber-300 text-rose-950 p-2.5 rounded-2xl border-2 border-white shadow-2xl">
+      <p class="text-xs font-black uppercase tracking-wide flex items-center justify-center space-x-1">
+        <span>👉</span>
+        <span>ACESSE O CATÁLOGO NO LINK DA BIO!</span>
+      </p>
+    </div>
+
+    <!-- Caixa do WhatsApp -->
+    <div class="bg-white/15 backdrop-blur-md p-2.5 rounded-2xl border border-white/30 shadow-lg flex items-center justify-between px-4">
+      <div class="text-left">
+        <span class="text-[9px] text-pink-200 block uppercase font-bold">Ou Encomende pelo WhatsApp:</span>
+        <span class="text-lg font-black text-white leading-tight block">(21) 96957-9835</span>
+      </div>
+      <span class="text-[10px] bg-emerald-500 text-white font-bold px-2.5 py-1 rounded-xl shadow">Zap Direto 💬</span>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "festejando-na-mesa-catalogo",
+  "version": "2.0.0",
+  "description": "Catálogo Digital Interativo, Pedidos via WhatsApp & PIX Banco Central para Festejando na Mesa",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/run_all.js",
+    "test:cloud": "node tests/test_cloud_live.js"
+  },
+  "keywords": [
+    "festejando-na-mesa",
+    "catalogo-digital",
+    "bolos-decorados",
+    "mini-festa",
+    "pegue-e-monte",
+    "docinhos-gourmet",
+    "pix-emv",
+    "whatsapp-order"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

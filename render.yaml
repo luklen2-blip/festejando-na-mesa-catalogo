@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: festejando-na-mesa-catalogo
+    runtime: node
+    plan: free
+    region: oregon
+    buildCommand: npm install && npm test
+    startCommand: node server.js
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000

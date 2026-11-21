@@ -1,0 +1,11 @@
+node_modules/
+.git/
+*.log
+.system_generated/
+scratch/
+.env
+video-engine/shot_*.png
+video-engine/*.wav
+video-engine/*.mp3
+video-engine/v3_frames/
+cloudflared.exe

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cena 5 - Outro Comercial</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&family=Comfortaa:wght@700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+    .font-brand { font-family: 'Comfortaa', cursive; }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-rose-800 via-pink-700 to-rose-900 w-[480px] h-[854px] overflow-hidden flex flex-col justify-between items-center p-6 text-white text-center relative">
+  
+  <!-- Efeitos de Luz no Fundo -->
+  <div class="absolute -top-10 -left-10 w-48 h-48 rounded-full bg-pink-400/25 blur-3xl"></div>
+  <div class="absolute -bottom-10 -right-10 w-48 h-48 rounded-full bg-rose-500/25 blur-3xl"></div>
+
+  <!-- Topo: Logo & Chamada -->
+  <div class="relative z-10 pt-4">
+    <div class="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-md px-4 py-1.5 rounded-full border border-white/30 shadow-lg mb-3">
+      <span class="text-amber-300 text-sm">✨</span>
+      <span class="text-xs font-bold tracking-wider uppercase text-pink-100">Catálogo Digital Oficial</span>
+    </div>
+    
+    <div class="w-16 h-16 mx-auto rounded-3xl bg-white text-rose-600 font-black text-3xl flex items-center justify-center shadow-2xl border-4 border-rose-300 mb-2">
+      🎂
+    </div>
+    <h1 class="text-2xl font-black font-brand tracking-wide text-white drop-shadow-md">Festejando na Mesa</h1>
+    <p class="text-xs text-rose-200 font-semibold italic">"Doces momentos, lembranças que ficam!"</p>
+  </div>
+
+  <!-- Centro: Mockup do Smartphone com o Catálogo -->
+  <div class="relative z-10 my-auto">
+    <!-- Moldura de Smartphone Estilizada -->
+    <div class="w-56 h-80 rounded-[36px] bg-slate-900 p-2 shadow-[0_20px_50px_rgba(0,0,0,0.6)] border-4 border-slate-700 relative overflow-hidden transform hover:scale-105 transition">
+      <!-- Câmera Dynamic Island -->
+      <div class="w-16 h-3.5 bg-black rounded-full mx-auto mb-1"></div>
+      
+      <!-- Tela Interna -->
+      <div class="w-full h-full rounded-[28px] overflow-hidden bg-rose-50 flex flex-col justify-between">
+        <img src="../public/assets/promocao_mini_festa_mesa.jpg" class="w-full h-28 object-cover">
+        <div class="p-2 text-left space-y-1">
+          <span class="text-[9px] bg-rose-600 text-white font-black px-1.5 py-0.5 rounded">R$ 220,00</span>
+          <p class="text-[11px] font-bold text-slate-900">Mini Festa Completa</p>
+          <p class="text-[9px] text-slate-500">Bolo + Topo + 50 Doces</p>
+          <div class="mt-2 bg-emerald-600 text-white text-[9px] font-black py-1 px-2 rounded-lg text-center shadow">
+            ✓ Pedir via WhatsApp
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Badges Flutuantes -->
+    <div class="absolute -top-3 -right-6 bg-amber-300 text-rose-950 text-xs font-black px-3 py-1.5 rounded-2xl shadow-xl border-2 border-white transform rotate-6">
+      🎉 50% de Sinal!
+    </div>
+    <div class="absolute -bottom-3 -left-6 bg-emerald-500 text-white text-xs font-black px-3 py-1.5 rounded-2xl shadow-xl border-2 border-white transform -rotate-6 flex items-center space-x-1">
+      <span>💬</span>
+      <span>Zap Direto</span>
+    </div>
+  </div>
+
+  <!-- Rodapé Comercial -->
+  <div class="relative z-10 w-full space-y-2 pb-2">
+    <div class="bg-white/10 backdrop-blur-md p-3 rounded-2xl border border-white/20">
+      <p class="text-xs font-bold text-amber-200">📱 Peça Agora pelo WhatsApp Oficial:</p>
+      <p class="text-lg font-black text-white tracking-wide">(21) 96957-9835</p>
+      <p class="text-[10px] text-rose-200">Senador Vasconcelos – Rio de Janeiro / RJ</p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cena 5 - Kits Temáticos Pegue e Monte</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Comfortaa:wght@700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+    .font-brand { font-family: 'Comfortaa', cursive; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-purple-50 via-rose-50 to-pink-100 w-[480px] h-[854px] overflow-hidden flex flex-col justify-between p-3 select-none">
+  <!-- Topo -->
+  <header class="bg-gradient-to-r from-purple-700 via-pink-600 to-rose-600 text-white p-3 rounded-2xl flex items-center justify-between shadow-md">
+    <div class="flex items-center space-x-2.5">
+      <div class="w-10 h-10 rounded-xl bg-white text-purple-700 flex items-center justify-center text-xl shadow">🎈</div>
+      <div>
+        <h1 class="text-sm font-bold font-brand tracking-wide leading-tight">Festejando na Mesa</h1>
+        <p class="text-[10px] text-purple-100">Cenários Temáticos & Pegue e Monte</p>
+      </div>
+    </div>
+    <span class="bg-amber-300 text-slate-950 font-black text-[11px] px-2.5 py-1 rounded-xl shadow">✨ Temas em Alta</span>
+  </header>
+
+  <!-- Grade 2x2 com os 4 Panfletos Reais em Grande Formato -->
+  <div class="grid grid-cols-2 gap-2.5 my-2 flex-1">
+    <!-- Tema 1: Princesas -->
+    <div class="relative rounded-2xl overflow-hidden shadow-lg border-2 border-white bg-slate-900 flex flex-col justify-end p-2">
+      <img src="../public/assets/kit_festa_princesas_lilas.jpg" class="absolute inset-0 w-full h-full object-cover">
+      <div class="relative z-10 bg-slate-950/85 p-1.5 rounded-xl border border-white/20 text-center">
+        <span class="text-[10px] font-bold text-pink-300 block">Princesas Lilás & Rosa</span>
+        <span class="text-xs font-black text-amber-300">Pegue e Monte: R$ 80</span>
+      </div>
+    </div>
+
+    <!-- Tema 2: Sonic -->
+    <div class="relative rounded-2xl overflow-hidden shadow-lg border-2 border-white bg-slate-900 flex flex-col justify-end p-2">
+      <img src="../public/assets/kit_festa_sonic.jpg" class="absolute inset-0 w-full h-full object-cover">
+      <div class="relative z-10 bg-slate-950/85 p-1.5 rounded-xl border border-white/20 text-center">
+        <span class="text-[10px] font-bold text-blue-300 block">Sonic o Ouriço (Provençal)</span>
+        <span class="text-xs font-black text-amber-300">Pegue e Monte: R$ 180</span>
+      </div>
+    </div>
+
+    <!-- Tema 3: Mulher Maravilha -->
+    <div class="relative rounded-2xl overflow-hidden shadow-lg border-2 border-white bg-slate-900 flex flex-col justify-end p-2">
+      <img src="../public/assets/kit_festa_mulher_maravilha.jpg" class="absolute inset-0 w-full h-full object-cover">
+      <div class="relative z-10 bg-slate-950/85 p-1.5 rounded-xl border border-white/20 text-center">
+        <span class="text-[10px] font-bold text-red-300 block">Mulher Maravilha</span>
+        <span class="text-xs font-black text-amber-300">Pegue e Monte: R$ 130</span>
+      </div>
+    </div>
+
+    <!-- Tema 4: Borboleta Azul -->
+    <div class="relative rounded-2xl overflow-hidden shadow-lg border-2 border-white bg-slate-900 flex flex-col justify-end p-2">
+      <img src="../public/assets/kit_festa_borboleta_azul.jpg" class="absolute inset-0 w-full h-full object-cover">
+      <div class="relative z-10 bg-slate-950/85 p-1.5 rounded-xl border border-white/20 text-center">
+        <span class="text-[10px] font-bold text-cyan-300 block">Tema Borboleta Azul</span>
+        <span class="text-xs font-black text-amber-300">Kit Completo: R$ 90,00</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner Inferior -->
+  <div class="bg-gradient-to-r from-purple-900 to-rose-900 text-white p-3 rounded-2xl border-2 border-amber-300 shadow-xl text-center">
+    <p class="text-xs font-black text-amber-300">🎉 KITS PEGUE E MONTE A PARTIR DE R$ 80,00!</p>
+    <p class="text-[10px] text-purple-200 mt-0.5">Opções com montagem no local e arco de balões desconstruído</p>
+  </div>
+</body>
+</html>

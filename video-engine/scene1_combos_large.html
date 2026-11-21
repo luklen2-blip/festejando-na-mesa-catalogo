@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cena 1 - Promoção Mini Festa Completa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Comfortaa:wght@700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+    .font-brand { font-family: 'Comfortaa', cursive; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-rose-100 to-pink-50 w-[480px] h-[854px] overflow-hidden flex flex-col justify-between p-3 select-none">
+  <!-- Topo da Marca -->
+  <header class="bg-gradient-to-r from-rose-600 via-pink-600 to-rose-700 text-white p-3 rounded-2xl flex items-center justify-between shadow-md">
+    <div class="flex items-center space-x-2.5">
+      <div class="w-10 h-10 rounded-xl bg-white text-rose-600 flex items-center justify-center text-xl shadow">🎂</div>
+      <div>
+        <h1 class="text-sm font-bold font-brand tracking-wide leading-tight">Festejando na Mesa</h1>
+        <p class="text-[10px] text-pink-100">Senador Vasconcelos – RJ</p>
+      </div>
+    </div>
+    <span class="bg-amber-300 text-rose-950 font-black text-[11px] px-2.5 py-1 rounded-xl shadow">⭐ Promoção Especial</span>
+  </header>
+
+  <!-- Imagem Principal Gigante do Panfleto -->
+  <div class="relative my-2 flex-1 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-900 flex items-center justify-center">
+    <img src="../public/assets/promocao_mini_festa_mesa.jpg" class="w-full h-full object-contain">
+    
+    <!-- Selo Superior Flutuante -->
+    <div class="absolute top-3 left-3 bg-rose-600/95 text-white font-black text-xs px-3 py-1.5 rounded-full shadow-lg backdrop-blur-xs flex items-center space-x-1.5 border border-white/30">
+      <span>🎉</span>
+      <span>COMBO MINI FESTA COMPLETA</span>
+    </div>
+
+    <!-- Badge Gigante de Preços no Rodapé da Imagem -->
+    <div class="absolute bottom-3 inset-x-3 bg-gradient-to-r from-slate-950/95 via-rose-950/95 to-slate-950/95 p-3 rounded-2xl border-2 border-amber-400/80 shadow-2xl backdrop-blur-md flex items-center justify-between">
+      <div class="text-left">
+        <span class="text-amber-300 text-[10px] font-black uppercase tracking-wider block">OPÇÃO 1 (Completo 20cm)</span>
+        <span class="text-2xl font-black text-white leading-none">R$ 220,00</span>
+        <span class="text-[10px] text-slate-300 block mt-0.5">Bolo 20cm + Painel + 50 Doces</span>
+      </div>
+      <div class="w-px h-10 bg-white/20"></div>
+      <div class="text-right">
+        <span class="text-pink-300 text-[10px] font-black uppercase tracking-wider block">OPÇÃO 2 (Compacto)</span>
+        <span class="text-xl font-black text-amber-300 leading-none">R$ 150,00</span>
+        <span class="text-[10px] text-slate-300 block mt-0.5">Bolo 15cm + 30 Doces</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé com Chamada -->
+  <div class="bg-white rounded-2xl p-2.5 border border-rose-200 text-center shadow-sm">
+    <p class="text-xs font-bold text-slate-800">✨ Mini Festa na Mesa também a partir de R$ 40,00!</p>
+  </div>
+</body>
+</html>

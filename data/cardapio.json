@@ -1,0 +1,304 @@
+{
+  "loja": {
+    "nome": "Festejando na Mesa",
+    "subtitulo": "Bolos Decorados, Doces Gourmet & Decoração Pegue e Monte",
+    "slogan": "Doces momentos, lembranças que ficam!",
+    "slogan_secundario": "Pequenos detalhes, grandes memórias!",
+    "whatsapp": "5521969579835",
+    "whatsapp_display": "(21) 96957-9835",
+    "instagram": "@festejando_minifesta_",
+    "instagram_url": "https://www.instagram.com/festejando_minifesta_/",
+    "chave_pix": "21969579835",
+    "titular_pix": "Festejando na Mesa",
+    "cidade_pix": "RIO DE JANEIRO",
+    "localizacao": "Senador Vasconcelos – Rio de Janeiro / RJ",
+    "politica_reserva": "Reserve sua data com 50% do valor e o restante na entrega/retirada.",
+    "politica_entrega": "Consulte taxa de entrega/montagem para sua região. Retiradas devem ser feitas pessoalmente (não nos responsabilizamos por entregas via Uber ou 99 Entregas devido à fragilidade dos bolos e doces).",
+    "alergicos_info": "Nossos produtos contêm ou podem conter glúten, lactose, ovos, amendoim e derivados de leite. Em caso de restrição severa, consulte-nos com antecedência.",
+    "pagamentos": ["PIX Oficial (50% sinal ou 100%)", "Dinheiro", "Cartão de Crédito/Débito"]
+  },
+  "opcoes_bolos": {
+    "massas": [
+      { "id": "massa-amanteigada", "nome": "Amanteigada Tradicional" },
+      { "id": "massa-chocolate", "nome": "Chocolate Preto Nobre" }
+    ],
+    "recheios": [
+      { "id": "rec-brigadeiro", "nome": "Brigadeiro Tradicional Cremoso" },
+      { "id": "rec-beijinho", "nome": "Beijinho com Coco Flocado" },
+      { "id": "rec-ninho", "nome": "Leite Ninho Trufado" },
+      { "id": "rec-pacoca", "nome": "Paçoca Cremosa" },
+      { "id": "rec-doce-leite-ameixa", "nome": "Doce de Leite com Ameixa" },
+      { "id": "rec-maracuja", "nome": "Maracujá (1 Camada Especial)" },
+      { "id": "rec-abacaxi-coco", "nome": "Abacaxi com Coco Natural" }
+    ],
+    "adicionais": [
+      { "id": "ad-topo-3d", "nome": "Topo de Bolo 3D em Camadas", "preco": 30.00 },
+      { "id": "ad-glitter", "nome": "Acabamento com Glitter Comestível", "preco": 25.00 },
+      { "id": "ad-caixa", "nome": "Caixa Especial para Transporte Seguro", "preco": 15.00 }
+    ]
+  },
+  "categorias": [
+    {
+      "id": "combos",
+      "nome": "🎉 Promoções & Combos Mini Festa",
+      "descricao": "Pacotes completos com decoração, bolo e doces para você comemorar sem se preocupar!",
+      "itens": [
+        {
+          "id": "combo-opcao1",
+          "nome": "Promoção Mini Festa na Mesa - Opção 1 (Completo 20cm)",
+          "descricao": "Painel temático decorado com arco de bolas + bandejas para doces + Bolo de 20cm com decoração simples (aproximadamente 30 fatias) + Topo de bolo simples incluso + 50 docinhos tradicionais.",
+          "preco": 220.00,
+          "foto": "assets/promocao_mini_festa_mesa.jpg",
+          "badge": "Mais Vendido",
+          "tipo": "combo_festa",
+          "sugestao_fatias": "Atende até 30 convidados",
+          "inclui": [
+            "Mini festa na mesa (painel com bolas e bandejas)",
+            "Bolo 20 cm decoração simples (30 fatias)",
+            "Topo de bolo simples incluso",
+            "50 docinhos tradicionais"
+          ]
+        },
+        {
+          "id": "combo-opcao2",
+          "nome": "Promoção Mini Festa na Mesa - Opção 2 (Compacto 15cm)",
+          "descricao": "Painel temático decorado com arco de bolas + bandejas para doces + Bolo de 15cm com decoração simples (aproximadamente 20 fatias) + Topo de bolo simples incluso + 30 docinhos tradicionais.",
+          "preco": 150.00,
+          "foto": "assets/promocao_mini_festa_mesa.jpg",
+          "badge": "Econômico",
+          "tipo": "combo_festa",
+          "sugestao_fatias": "Atende até 20 convidados",
+          "inclui": [
+            "Mini festa na mesa (painel com bolas e bandejas)",
+            "Bolo 15 cm decoração simples (20 fatias)",
+            "Topo de bolo simples incluso",
+            "30 docinhos tradicionais"
+          ]
+        },
+        {
+          "id": "combo-basico-40",
+          "nome": "Mini Festa na Mesa Simples (Painel + Bandejas)",
+          "descricao": "Não deixe de comemorar! O básico que fica lindo, charmoso e especial para registrar momentos únicos em família.",
+          "preco": 40.00,
+          "foto": "assets/mini_festa_partir_40.jpg",
+          "badge": "A partir de R$ 40",
+          "tipo": "decoracao_simples"
+        }
+      ]
+    },
+    {
+      "id": "bolos",
+      "nome": "🎂 Bolos Decorados & Bolinho de Festa",
+      "descricao": "Massas fofinhas e saborosas com recheios fartos e acabamento artesanal feito com todo amor.",
+      "itens": [
+        {
+          "id": "bolo-festa-100",
+          "nome": "Bolinho de Festa Econômico (30 Fatias)",
+          "descricao": "Simples por fora, surpreendente por dentro! Precinho que cabe no bolso, massa fofinha e 2 camadas generosas de recheio. Ideal para pequenas comemorações e momentos especiais.",
+          "preco": 100.00,
+          "foto": "assets/bolinho_festa_100.jpg",
+          "badge": "Campeão de Vendas",
+          "rendimento": "Serve 30 fatias fartas",
+          "recheios_opcoes": ["Paçoca cremosa", "Brigadeiro que derrete na boca", "Beijinho clássico"],
+          "tipo": "bolinho_economico"
+        },
+        {
+          "id": "bolo-decorado-15",
+          "nome": "Bolo Doce Lembrança 15cm (~20 fatias)",
+          "descricao": "Mais que um bolo, uma doce lembrança no coração. Escolha 1 sabor de massa e 2 recheios caprichados. Topo de bolo simples incluso!",
+          "preco": 150.00,
+          "foto": "assets/bolos_decorados_doce_lembranca.jpg",
+          "badge": "20 Fatias",
+          "rendimento": "Aproximadamente 20 fatias",
+          "tipo": "bolo_personalizavel",
+          "tamanho_cm": 15
+        },
+        {
+          "id": "bolo-decorado-20",
+          "nome": "Bolo Doce Lembrança 20cm (~30 fatias)",
+          "descricao": "Tamanho ideal para aniversários e reuniões familiares. Escolha 1 sabor de massa e 2 recheios caprichados. Topo de bolo simples incluso!",
+          "preco": 180.00,
+          "foto": "assets/bolos_decorados_doce_lembranca.jpg",
+          "badge": "30 Fatias",
+          "rendimento": "Aproximadamente 30 fatias",
+          "tipo": "bolo_personalizavel",
+          "tamanho_cm": 20
+        },
+        {
+          "id": "bolo-decorado-25",
+          "nome": "Bolo Doce Lembrança 25cm (~40 fatias)",
+          "descricao": "Perfeito para festas maiores! Escolha 1 sabor de massa e 2 recheios generosos. Topo de bolo simples incluso!",
+          "preco": 220.00,
+          "foto": "assets/bolos_decorados_doce_lembranca.jpg",
+          "badge": "40 Fatias",
+          "rendimento": "Aproximadamente 40 fatias",
+          "tipo": "bolo_personalizavel",
+          "tamanho_cm": 25
+        },
+        {
+          "id": "bolo-decorado-30",
+          "nome": "Bolo Doce Lembrança 30cm (~50 fatias)",
+          "descricao": "Bolo grandioso para celebrar em grande estilo! Escolha 1 sabor de massa e 2 recheios caprichados. Topo de bolo simples incluso!",
+          "preco": 260.00,
+          "foto": "assets/bolos_decorados_doce_lembranca.jpg",
+          "badge": "50 Fatias",
+          "rendimento": "Aproximadamente 50 fatias",
+          "tipo": "bolo_personalizavel",
+          "tamanho_cm": 30
+        }
+      ]
+    },
+    {
+      "id": "docinhos",
+      "nome": "🍬 Docinhos Tradicionais & Gourmet",
+      "descricao": "Pequenos detalhes artesanais que adoçam os seus momentos mais marcantes.",
+      "itens": [
+        {
+          "id": "cento-tradicional",
+          "nome": "Cento de Docinhos Tradicionais (100 un)",
+          "descricao": "Cento com direito a até 3 sabores tradicionais: Brigadeiro, Beijinho, Paçoca e Cajuzinho. Enrolados com acabamento impecável.",
+          "preco": 110.00,
+          "foto": "assets/docinhos_tradicionais_gourmet.jpg",
+          "badge": "100 unidades",
+          "sabores": ["Brigadeiro", "Beijinho", "Paçoca", "Cajuzinho"],
+          "tipo": "cento_doces"
+        },
+        {
+          "id": "cento-gourmet",
+          "nome": "Cento de Docinhos Gourmet (100 un)",
+          "descricao": "Cento com direito a até 3 sabores gourmet requintados: Ferrero Rocher, Ninho com Nutella, Confete, Chocolate ao Leite, Napolitano e Brigadeiro de Morango.",
+          "preco": 165.00,
+          "foto": "assets/docinhos_tradicionais_gourmet.jpg",
+          "badge": "Gourmet Nobre",
+          "sabores": ["Ferrero Rocher", "Ninho com Nutella", "Confete", "Chocolate ao Leite", "Napolitano", "Brigadeiro de Morango"],
+          "tipo": "cento_doces"
+        },
+        {
+          "id": "docinho-trad-unidade",
+          "nome": "Docinhos Tradicionais Avulsos (mín. 25 un)",
+          "descricao": "Brigadeiro, Beijinho, Paçoca ou Cajuzinho. Valor por unidade (encomendas a partir de 25 unidades).",
+          "preco": 1.50,
+          "foto": "assets/docinhos_tradicionais_gourmet.jpg",
+          "badge": "R$ 1,50 un",
+          "unidade": true,
+          "minimo": 25,
+          "tipo": "unidade_doces"
+        },
+        {
+          "id": "docinho-gourmet-unidade",
+          "nome": "Docinhos Gourmet Avulsos (mín. 25 un)",
+          "descricao": "Ferrero Rocher, Ninho com Nutella, Confete, Chocolate ao Leite, Napolitano ou Brigadeiro de Morango. Valor unitário (mín. 25 unidades).",
+          "preco": 2.20,
+          "foto": "assets/docinhos_tradicionais_gourmet.jpg",
+          "badge": "R$ 2,20 un",
+          "unidade": true,
+          "minimo": 25,
+          "tipo": "unidade_doces"
+        },
+        {
+          "id": "pirulito-chocolate",
+          "nome": "Pirulito de Chocolate Artesanal",
+          "descricao": "Pirulito de puro chocolate com laço de fita decorativo. Opção simples por R$ 2,50 ou com adesivo temático por R$ 3,00.",
+          "preco": 2.50,
+          "foto": "assets/docinhos_tradicionais_gourmet.jpg",
+          "badge": "R$ 2,50 / R$ 3,00",
+          "variacoes": [
+            { "id": "pirulito-sem-adesivo", "nome": "Sem Adesivo", "preco": 2.50 },
+            { "id": "pirulito-com-adesivo", "nome": "Com Adesivo Temático", "preco": 3.00 }
+          ],
+          "tipo": "item_variacao"
+        }
+      ]
+    },
+    {
+      "id": "trufas",
+      "nome": "🍫 Mini Trufas Recheadas",
+      "descricao": "Casquinha de chocolate crocante e recheio cremoso que derrete na boca.",
+      "itens": [
+        {
+          "id": "cento-mini-trufas",
+          "nome": "Cento de Mini Trufas Recheadas (100 un)",
+          "descricao": "Cento com direito a escolher até 4 sabores deliciosos: Mousse de Morango, Mousse de Maracujá, Mousse de Limão, Brigadeiro, Beijinho ou Paçoca.",
+          "preco": 140.00,
+          "foto": "assets/mini_trufas_recheadas.jpg",
+          "badge": "4 Sabores",
+          "sabores": ["Mousse de Morango", "Mousse de Maracujá", "Mousse de Limão", "Brigadeiro", "Beijinho", "Paçoca"],
+          "tipo": "cento_trufas"
+        },
+        {
+          "id": "trufas-menor-50",
+          "nome": "Mini Trufas em Quantidade Menor (mín. 50 un)",
+          "descricao": "Encomenda a partir de 50 unidades com até 2 sabores a sua escolha por apenas R$ 2,00 cada trufa.",
+          "preco": 2.00,
+          "foto": "assets/mini_trufas_recheadas.jpg",
+          "badge": "R$ 2,00 un (mín 50)",
+          "unidade": true,
+          "minimo": 50,
+          "sabores": ["Mousse de Morango", "Mousse de Maracujá", "Mousse de Limão", "Brigadeiro", "Beijinho", "Paçoca"],
+          "tipo": "unidade_trufas"
+        }
+      ]
+    },
+    {
+      "id": "decoracao",
+      "nome": "🎈 Kits de Decoração & Pegue e Monte",
+      "descricao": "Cenários temáticos encantadores para transformar a sua sala ou quintal em uma verdadeira festa dos sonhos.",
+      "itens": [
+        {
+          "id": "kit-borboleta-azul",
+          "nome": "Kit Tema Borboleta Azul (Completo)",
+          "descricao": "1 painel redondo com arco orgânico de bolas desconstruídas em tons azul, prata e branco + bandejas decorativas para doces + displays 3D de mesa + 1 mesa cavalete branca estilizada.",
+          "preco": 90.00,
+          "foto": "assets/kit_festa_borboleta_azul.jpg",
+          "badge": "R$ 90,00 Completo",
+          "tipo": "kit_fixo",
+          "detalhes": [
+            "1 painel redondo com arco de bolas",
+            "Bandejas de apoio para doces",
+            "Displays decorativos de borboletas",
+            "1 mesa cavalete moderna"
+          ]
+        },
+        {
+          "id": "kit-princesas",
+          "nome": "Kit Princesas (Lilás e Rosa Encantado)",
+          "descricao": "Painel temático das Princesas Disney com cilindros sublimados luxo, suporte para bolo e arranjo de balões em degradê.",
+          "preco": 80.00,
+          "foto": "assets/kit_festa_princesas_lilas.jpg",
+          "badge": "Pegue e Monte R$ 80",
+          "tipo": "kit_modalidade",
+          "modalidades": [
+            { "id": "princesas-pegue-monte", "nome": "Pegue e Monte (você retira e monta)", "preco": 80.00 },
+            { "id": "princesas-montagem-arco", "nome": "Montagem no Local + Arco Simples (2 cores lisas)", "preco": 200.00 }
+          ]
+        },
+        {
+          "id": "kit-mulher-maravilha",
+          "nome": "Kit Mulher Maravilha (Cilindros & Painel)",
+          "descricao": "Cenário com painel redondo oficial da heroína, trio de cilindros decorados estrelados, cortina vermelha e suportes para doces.",
+          "preco": 130.00,
+          "foto": "assets/kit_festa_mulher_maravilha.jpg",
+          "badge": "Pegue e Monte R$ 130",
+          "tipo": "kit_modalidade",
+          "modalidades": [
+            { "id": "wonder-pegue-monte", "nome": "Pegue e Monte (você retira e monta)", "preco": 130.00 },
+            { "id": "wonder-montagem-arco", "nome": "Montagem no Local + Arco de Bolas (3 cores lisas)", "preco": 300.00 }
+          ]
+        },
+        {
+          "id": "kit-sonic",
+          "nome": "Kit Sonic o Ouriço (Mesa Cômoda + Cilindros)",
+          "descricao": "Super cenário com painel gigante Sonic, cômoda branca provençal, trio de cilindros temáticos com Tails e Knuckles e suportes em azul real.",
+          "preco": 180.00,
+          "foto": "assets/kit_festa_sonic.jpg",
+          "badge": "Pegue e Monte R$ 180",
+          "tipo": "kit_modalidade",
+          "modalidades": [
+            { "id": "sonic-pegue-monte", "nome": "Pegue e Monte (você retira e monta)", "preco": 180.00 },
+            { "id": "sonic-montagem-arco", "nome": "Montagem no Local + Arco de Bolas Simples (3 cores lisas)", "preco": 350.00 }
+          ]
+        }
+      ]
+    }
+  ]
+}

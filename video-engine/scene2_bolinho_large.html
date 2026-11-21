@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cena 2 - Bolinho de Festa R$ 100</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Comfortaa:wght@700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+    .font-brand { font-family: 'Comfortaa', cursive; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-amber-100 to-rose-50 w-[480px] h-[854px] overflow-hidden flex flex-col justify-between p-3 select-none">
+  <!-- Topo -->
+  <header class="bg-gradient-to-r from-amber-600 via-rose-600 to-pink-600 text-white p-3 rounded-2xl flex items-center justify-between shadow-md">
+    <div class="flex items-center space-x-2.5">
+      <div class="w-10 h-10 rounded-xl bg-white text-amber-600 flex items-center justify-center text-xl shadow">🍰</div>
+      <div>
+        <h1 class="text-sm font-bold font-brand tracking-wide leading-tight">Festejando na Mesa</h1>
+        <p class="text-[10px] text-amber-100">Precinho que cabe no bolso!</p>
+      </div>
+    </div>
+    <span class="bg-white text-rose-700 font-black text-[11px] px-2.5 py-1 rounded-xl shadow">🏆 Campeão de Vendas</span>
+  </header>
+
+  <!-- Imagem Principal Gigante do Panfleto -->
+  <div class="relative my-2 flex-1 rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-900 flex items-center justify-center">
+    <img src="../public/assets/bolinho_festa_100.jpg" class="w-full h-full object-contain">
+
+    <!-- Selo Superior Flutuante -->
+    <div class="absolute top-3 left-3 bg-amber-500 text-slate-950 font-black text-xs px-3 py-1.5 rounded-full shadow-lg flex items-center space-x-1.5 border border-white/50">
+      <span>🔥</span>
+      <span>SERVE 30 FATIAS FARTAS</span>
+    </div>
+
+    <!-- Badge Gigante de Preço com Máximo Destaque -->
+    <div class="absolute bottom-3 inset-x-3 bg-gradient-to-r from-rose-950 via-rose-900 to-amber-950 p-3.5 rounded-2xl border-2 border-amber-300 shadow-2xl flex items-center justify-between">
+      <div class="text-left">
+        <span class="text-amber-300 text-[10px] font-black uppercase tracking-wider block">Bolo Fofinho • 2 Camadas de Recheio</span>
+        <div class="flex items-baseline space-x-1.5">
+          <span class="text-xs text-rose-300 font-bold">POR APENAS</span>
+          <span class="text-3xl font-black text-white leading-none tracking-tight">R$ 100,00</span>
+        </div>
+        <span class="text-[10px] text-amber-200 block mt-0.5">Paçoca • Brigadeiro que derrete • Beijinho</span>
+      </div>
+      <div class="bg-amber-400 text-rose-950 font-black text-xs px-3 py-2 rounded-xl shadow text-center leading-tight">
+        <span>30</span><br><span class="text-[8px] uppercase font-bold">Fatias</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <div class="bg-white rounded-2xl p-2.5 border border-amber-200 text-center shadow-sm">
+    <p class="text-xs font-bold text-slate-800">🍰 Simples por fora, surpreendente por dentro!</p>
+  </div>
+</body>
+</html>

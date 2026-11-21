@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cena 4 - Docinhos Gourmet & Mini Trufas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800;900&family=Comfortaa:wght@700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+    .font-brand { font-family: 'Comfortaa', cursive; }
+  </style>
+</head>
+<body class="bg-gradient-to-b from-rose-100 to-pink-100 w-[480px] h-[854px] overflow-hidden flex flex-col justify-between p-3 select-none">
+  <!-- Topo -->
+  <header class="bg-gradient-to-r from-rose-600 via-pink-600 to-rose-700 text-white p-3 rounded-2xl flex items-center justify-between shadow-md">
+    <div class="flex items-center space-x-2.5">
+      <div class="w-10 h-10 rounded-xl bg-white text-rose-600 flex items-center justify-center text-xl shadow">🍬</div>
+      <div>
+        <h1 class="text-sm font-bold font-brand tracking-wide leading-tight">Festejando na Mesa</h1>
+        <p class="text-[10px] text-pink-100">Docinhos Gourmet & Mini Trufas Recheadas</p>
+      </div>
+    </div>
+    <span class="bg-amber-300 text-slate-950 font-black text-[11px] px-2.5 py-1 rounded-xl shadow">🍫 Enrolados na Hora</span>
+  </header>
+
+  <!-- Duas Imagens Grandes em Destaque Nítido -->
+  <div class="grid grid-cols-2 gap-2.5 my-2 flex-1">
+    <!-- Imagem 1: Docinhos -->
+    <div class="relative rounded-3xl overflow-hidden shadow-xl border-3 border-white bg-slate-900 flex flex-col">
+      <img src="../public/assets/docinhos_tradicionais_gourmet.jpg" class="w-full h-full object-cover">
+      <div class="absolute top-2 left-2 bg-rose-600 text-white text-[9px] font-black px-2 py-0.5 rounded-full shadow">
+        Docinhos Finos
+      </div>
+      <div class="absolute bottom-2 inset-x-2 bg-slate-950/90 p-2 rounded-xl text-center border border-amber-300/60 backdrop-blur-xs">
+        <span class="text-amber-300 text-[10px] font-bold block">Tradicional / Gourmet</span>
+        <span class="text-base font-black text-white">R$ 110 / R$ 165</span>
+        <span class="text-[9px] text-slate-300 block">Cento com 3 sabores</span>
+      </div>
+    </div>
+
+    <!-- Imagem 2: Mini Trufas -->
+    <div class="relative rounded-3xl overflow-hidden shadow-xl border-3 border-white bg-slate-900 flex flex-col">
+      <img src="../public/assets/mini_trufas_recheadas.jpg" class="w-full h-full object-cover">
+      <div class="absolute top-2 left-2 bg-amber-500 text-slate-950 text-[9px] font-black px-2 py-0.5 rounded-full shadow">
+        Mini Trufas
+      </div>
+      <div class="absolute bottom-2 inset-x-2 bg-slate-950/90 p-2 rounded-xl text-center border border-amber-300/60 backdrop-blur-xs">
+        <span class="text-pink-300 text-[10px] font-bold block">Cento (4 Sabores)</span>
+        <span class="text-base font-black text-amber-300">R$ 140,00</span>
+        <span class="text-[9px] text-slate-300 block">R$ 2,00 un (mín. 50)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner Inferior com Preços dos Pirulitos e Sabores -->
+  <div class="bg-gradient-to-r from-slate-900 to-rose-950 text-white p-3 rounded-2xl border-2 border-rose-300 shadow-xl flex items-center justify-between">
+    <div>
+      <span class="text-amber-300 text-[10px] font-black uppercase">Sabores Nobres:</span>
+      <p class="text-xs font-bold text-white leading-tight">Ferrero Rocher • Ninho com Nutella • Morango • Paçoca</p>
+    </div>
+    <div class="text-right pl-2">
+      <span class="text-[9px] text-pink-300 block">Pirulito de Chocolate</span>
+      <span class="text-xs font-black text-amber-300">R$ 2,50 a R$ 3,00</span>
+    </div>
+  </div>
+</body>
+</html>

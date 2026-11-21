@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cena 1 - Vitrine Festejando na Mesa</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=Comfortaa:wght@700&display=swap');
+    body { font-family: 'Poppins', sans-serif; }
+    .font-brand { font-family: 'Comfortaa', cursive; }
+  </style>
+</head>
+<body class="bg-rose-50/50 w-[480px] h-[854px] overflow-hidden flex flex-col justify-between">
+  <!-- Header -->
+  <header class="bg-gradient-to-r from-rose-600 via-pink-600 to-rose-700 text-white px-4 py-3 flex items-center justify-between shadow-md">
+    <div class="flex items-center space-x-3">
+      <div class="w-11 h-11 rounded-2xl bg-white text-rose-600 flex items-center justify-center font-extrabold text-2xl shadow">🎂</div>
+      <div>
+        <h1 class="text-base font-bold font-brand tracking-wide leading-tight">Festejando na Mesa</h1>
+        <p class="text-[11px] text-rose-100 font-medium">Bolos Decorados & Decoração Pegue e Monte</p>
+      </div>
+    </div>
+    <div class="w-9 h-9 rounded-xl bg-white/20 backdrop-blur-md flex items-center justify-center relative border border-white/30">
+      <span class="text-white text-lg">🛍️</span>
+      <span class="absolute -top-1 -right-1 bg-amber-300 text-rose-950 text-[10px] font-black w-4 h-4 rounded-full flex items-center justify-center">0</span>
+    </div>
+  </header>
+
+  <!-- Banner Principal -->
+  <div class="bg-gradient-to-b from-rose-600 to-pink-500 px-4 pt-2 pb-5 rounded-b-3xl shadow-lg">
+    <div class="relative overflow-hidden rounded-2xl shadow-xl border-2 border-white/40 bg-slate-900 h-44">
+      <img src="../public/assets/promocao_mini_festa_mesa.jpg" class="w-full h-full object-cover opacity-90">
+      <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent flex flex-col justify-end p-3.5">
+        <span class="bg-amber-300 text-rose-950 font-black text-[10px] px-2.5 py-0.5 rounded-full w-max shadow">⭐ Promoção Especial</span>
+        <h2 class="text-sm font-extrabold text-white mt-1">Mini Festa na Mesa Completa</h2>
+        <p class="text-[11px] text-rose-200">Bolo 20cm + Painel com bolas + 50 docinhos por R$ 220,00</p>
+      </div>
+    </div>
+
+    <!-- 4 Selos de Confiança -->
+    <div class="grid grid-cols-4 gap-2 mt-3 text-center">
+      <div class="bg-white/15 backdrop-blur-sm p-1.5 rounded-xl border border-white/20">
+        <div class="text-base">💰</div>
+        <span class="text-[9px] font-bold text-white">50% Sinal</span>
+      </div>
+      <div class="bg-white/15 backdrop-blur-sm p-1.5 rounded-xl border border-white/20">
+        <div class="text-base">🎂</div>
+        <span class="text-[9px] font-bold text-white">Topo Incluso</span>
+      </div>
+      <div class="bg-white/15 backdrop-blur-sm p-1.5 rounded-xl border border-white/20">
+        <div class="text-base">🎈</div>
+        <span class="text-[9px] font-bold text-white">Pegue & Monte</span>
+      </div>
+      <div class="bg-white/15 backdrop-blur-sm p-1.5 rounded-xl border border-white/20">
+        <div class="text-base">📍</div>
+        <span class="text-[9px] font-bold text-white">S. Vasconcelos</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vitrine Destaques -->
+  <div class="px-4 py-2 flex-1 flex flex-col justify-center space-y-2.5">
+    <div class="flex items-center justify-between">
+      <h3 class="font-bold text-xs text-slate-800 uppercase tracking-wider">Mais Pedidos para Festa</h3>
+      <span class="text-[10px] text-rose-600 font-bold">Ver Catálogo Completo →</span>
+    </div>
+
+    <div class="grid grid-cols-2 gap-2.5">
+      <!-- Card 1: Bolinho de Festa -->
+      <div class="bg-white rounded-2xl p-2.5 shadow-sm border border-rose-100 flex flex-col justify-between">
+        <div class="relative overflow-hidden rounded-xl h-28 bg-rose-100">
+          <img src="../public/assets/bolinho_festa_100.jpg" class="w-full h-full object-cover">
+          <span class="absolute top-1 left-1 bg-rose-600 text-white text-[8px] font-bold px-1.5 py-0.5 rounded">30 Fatias</span>
+        </div>
+        <div class="mt-2">
+          <h4 class="font-bold text-xs text-slate-900 leading-tight">Bolinho de Festa</h4>
+          <p class="text-[10px] text-slate-500">2 camadas de recheio</p>
+          <span class="text-xs font-black text-rose-600 mt-1 block">R$ 100,00</span>
+        </div>
+      </div>
+
+      <!-- Card 2: Docinhos Gourmet -->
+      <div class="bg-white rounded-2xl p-2.5 shadow-sm border border-rose-100 flex flex-col justify-between">
+        <div class="relative overflow-hidden rounded-xl h-28 bg-rose-100">
+          <img src="../public/assets/docinhos_tradicionais_gourmet.jpg" class="w-full h-full object-cover">
+          <span class="absolute top-1 left-1 bg-amber-400 text-slate-900 text-[8px] font-bold px-1.5 py-0.5 rounded">Gourmet</span>
+        </div>
+        <div class="mt-2">
+          <h4 class="font-bold text-xs text-slate-900 leading-tight">Cento de Docinhos</h4>
+          <p class="text-[10px] text-slate-500">Ferrero, Ninho c/ Nutella</p>
+          <span class="text-xs font-black text-rose-600 mt-1 block">R$ 165,00</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé Chamada -->
+  <div class="bg-white border-t border-rose-100 p-3 text-center">
+    <p class="text-xs text-slate-600 font-medium">Toque para personalizar e montar sua festa 👇</p>
+  </div>
+</body>
+</html>
